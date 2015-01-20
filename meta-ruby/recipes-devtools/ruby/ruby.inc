@@ -26,7 +26,7 @@ SRC_URI = "http://ftp.ruby-lang.org/pub/ruby/${SHRT_VER}/ruby-${PV}.tar.gz \
 
 S = "${WORKDIR}/ruby-${PV}"
 
-inherit autotools
+inherit autotools-brokensep
 
 
 # This snippet lets compiled extensions which rely on external libraries,
